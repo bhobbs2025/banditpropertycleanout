@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandit Property Cleanout</title>
     <style>
+        body {
+            background: #e7f8ed;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
         .logo {
             display: block;
             margin: 20px auto 10px auto;
             max-width: 120px;
             height: auto;
+        }
+        .contact {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 10px 0 0 0;
         }
         .prices {
             max-width: 600px;
@@ -24,9 +34,21 @@
         ul {
             margin-bottom: 1.5em;
         }
+        .footer-contact {
+            text-align: center;
+            font-size: 1.2em;
+            margin: 30px 0 10px 0;
+        }
+        @media (max-width: 600px) {
+            .prices { font-size: 0.97rem; }
+            .contact, .footer-contact { font-size: 1em; }
+        }
     </style>
 </head>
 <body>
+    <div class="contact">
+        <a href="tel:6016474019" style="color:#14532d;text-decoration:none;font-weight:bold;">(601) 647-4019</a>
+    </div>
     <img src="LOGO.png" alt="Bandit Property Cleanout Logo" class="logo">
     <h1 style="text-align:center;">Welcome to Bandit Property Cleanout</h1>
     <p style="text-align:center;">Your trusted partner in property cleanout services.</p>
@@ -58,6 +80,9 @@
             <li>Tires — $10–$15 each</li>
             <li>Travel surcharge — $1/mile after first 20 one-way miles</li>
         </ul>
+    </div>
+    <div class="footer-contact">
+        <a href="tel:6016474019" style="color:#14532d;text-decoration:none;font-weight:bold;">(601) 647-4019</a>
     </div>
 </body>
 </html>
